@@ -1,13 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import  { Button }  from '@jnoer/storybook';
+import  { Button2 }  from '@jnoer/storybook';
 
 function App() {
-console.log('button', Button);
-console.log('logo', logo);
   return (
     <div className="App">
-    <Button></Button>
+      <Button2></Button2>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
